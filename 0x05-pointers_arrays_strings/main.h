@@ -3,7 +3,7 @@
 
 #include <stdio.h>
 
-        void swap_int(int *a, int *b);
+	int _strlen(char *s);
         void printMul(void);
 
 #endif /* MAIN_H */
