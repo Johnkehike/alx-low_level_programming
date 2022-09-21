@@ -3,7 +3,7 @@
 
 #include <stdio.h>
 
-	int _strlen(char *s);
+	void print_array(int *a, int n);
         void printMul(void);
 
 #endif /* MAIN_H */
