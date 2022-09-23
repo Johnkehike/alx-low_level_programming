@@ -1,6 +1,6 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-	char *_strncpy(char *dest, char *src, int n);
+	char *cap_string(char *p);
 
 #endif /* MAIN_H */
