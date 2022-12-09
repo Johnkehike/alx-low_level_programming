@@ -1,5 +1,12 @@
-#include <stdio.h>
-
+#include	<stdio.h>
+/**
+ * main - Entry point
+ *
+ * description: 'printed'
+ *
+ * Return: always 0
+ *
+ */
 int main(void)
 {
 	int i;
@@ -12,8 +19,5 @@ int main(void)
 	printf("Size of a long long int: %lu.\n", (unsigned long)sizeof(d), "byte(s)");
 	printf("Size of a float: %lu.\n",(unsigned long)sizeof(i), "byte(s)");
         
-	return(0);
+	return (0);
 }
-
-	
-
