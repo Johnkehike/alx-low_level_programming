@@ -1,8 +1,13 @@
 #include <stdlib.h>
+#include <stdio.h>
 #include <time.h>
-/* more headers goes there */
-
-/* betty style doc for function main goes there */
+/** 
+ * main - entry point
+ *
+ * description: 'Assign random number '
+ *
+ * Return: Always 0
+ */
 int main(void)
 {
 	int n;
