@@ -7,7 +7,7 @@
  *
  *
  * description: 'Print last digit'
- * 
+ *
  * Return: Always 0
  *
  */
