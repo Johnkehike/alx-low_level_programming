@@ -2,7 +2,7 @@
 /**
  * main - Entry point
  *
- * Description: Always return 0
+ * description: Always return 0
  *
  * Returns 0
  */
