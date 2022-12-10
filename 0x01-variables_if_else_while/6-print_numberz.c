@@ -1,14 +1,19 @@
 #include <stdio.h>
-
-int main()
+/**
+ * main - entry point
+ *
+ * description: 'job'
+ *
+ * Return: Always 0
+ */
+int main(void)
 {
-	int a;
+	int i;
 
-	for(a='0'; a<='10'; ++a){
-		putchar(a);
+	for (i = 0; i < 10; i++)
+	{
+		printf("%d", i);
 	}
 	putchar('\n');
-	
-	
-	
+	return (0);	
 }
