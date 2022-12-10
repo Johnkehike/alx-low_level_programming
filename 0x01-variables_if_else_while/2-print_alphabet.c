@@ -6,7 +6,7 @@
  *
  * Return: Always 0
  */
-void main()
+int main(void)
 {
 	char alp[26] = "abcdefghijklmnopqrstuvwxyz";
 	int i;
