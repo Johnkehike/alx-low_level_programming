@@ -1,11 +1,19 @@
 #include <stdio.h>
-
-int main()
+/**
+ * main - entry point
+ *
+ * description: 'task'
+ *
+ * Return: always 0
+ */
+int main(void)
 {
-	int ch;
+	int i;
 
-	for(ch='z'; ch>='a'; --ch){
-		putchar(ch);
+	for (i = 122; i > 96; i--)
+	{
+		putchar(i);
 	}
 	putchar('\n');
+	return (0);
 }
