@@ -1,14 +1,21 @@
 #include <stdio.h>
-
-
-int main()
+/**
+ * main - entry point
+ *
+ * description: 'work '
+ *
+ * Return: Always 0
+ *
+ *
+ */
+int main(void)
 {
-	int a=0;
+	int i;
 
-         while(a<=10){
-		printf("%d\n", a);
-		++a;
-		
+	for (i = 0; i < 10; i++)
+	{
+		printf("%d", i);
 	}
-	return(0);
+	putchar('\n');
+	return (0);
 }
