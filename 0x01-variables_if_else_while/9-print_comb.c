@@ -1,18 +1,24 @@
 #include <stdio.h>
-
-int main()
+/**
+ * main - entry point
+ *
+ * description: 'tasks'
+ *
+ * Return: always 0
+ */
+int main(void)
 {
-	int a;
-	char str2[15];
-	strcpy(str2, ", ");
+		int i;
 
-	for(a='0'; a<='9'; ++a)
+	for (i = 48; i < 58; i++)
 	{
-		puts(a);
-		puts(str2);
-		
+		putchar(i);
+		if (i != 57)
+		{
+			putchar(',');
+			putchar(' ');
+		}
 	}
-		/*putchar(', ');*/
-		return(0);
-	
+	putchar('\n');
+	return (0);	
 }
