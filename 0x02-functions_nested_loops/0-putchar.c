@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * Comment -print putchar
- * 
+ * main -print putchar
+ *
  * description: 'print just putchar
  *
  * Return: always return 0
