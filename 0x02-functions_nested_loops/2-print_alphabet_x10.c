@@ -1,6 +1,10 @@
 #include	"main.h"
 /**
+ * print_alphabet_x10 - function
  *
+ * description:
+ *
+ * Return: always
  * Comment-Print alphabet
  *
  */
