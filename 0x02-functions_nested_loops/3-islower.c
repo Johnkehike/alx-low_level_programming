@@ -2,9 +2,9 @@
 /**
  * _islower- Checks for lowercase
  *
- * description:
+ * description: 'make character c is lower'
  *
- * return:
+ * Return: return
  *
  */
 int _islower(int c)
