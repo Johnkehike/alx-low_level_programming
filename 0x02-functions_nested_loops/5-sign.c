@@ -1,5 +1,11 @@
 #include	"main.h"
 /**
+ * print_sign - entry
+ * @n: nice
+ *
+ * description:
+ *
+ * Return:
  * Comment
  *
  */
