@@ -2,7 +2,7 @@
 /**
  * _islower- Checks for lowercase
  *
- * c - integer
+ * @c: this is the char to be checked
  *
  * description: 'make character c is lower'
  *
