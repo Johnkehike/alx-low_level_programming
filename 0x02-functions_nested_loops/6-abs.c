@@ -1,5 +1,11 @@
 #include	"main.h"
 /**
+ * _abs - entry
+ * @i: done
+ *
+ * description:
+ *
+ * Return:
  *
  * Comment
  *
