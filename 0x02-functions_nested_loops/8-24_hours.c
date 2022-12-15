@@ -1,6 +1,6 @@
 #include	"main.h"
 /**
- * jack-bauer - ent
+ * jack_bauer - ent
  *
  * description:
  *
