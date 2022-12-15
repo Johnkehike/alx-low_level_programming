@@ -1,5 +1,10 @@
 #include	"main.h"
 /**
+ * times_table - entry
+ *
+ * description:
+ *
+ * Return:
  *
  *
  */
