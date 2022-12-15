@@ -1,7 +1,10 @@
 #include "main.h"
 /**
  * Comment -print putchar
+ * 
+ * description: 'print just putchar
  *
+ * Return: always return 0
  *
  */
 int main(void)
