@@ -1,5 +1,12 @@
 #include	"main.h"
 /**
+ * _isalpha - entry
+ *
+ * @c: main char to check
+ *
+ * description:
+ *
+ * Return: always drop a return
  *
  *Comment - checking for alphabetic characters
  *
