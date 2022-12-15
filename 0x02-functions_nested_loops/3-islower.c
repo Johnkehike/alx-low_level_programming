@@ -2,6 +2,8 @@
 /**
  * _islower- Checks for lowercase
  *
+ * c - integer
+ *
  * description: 'make character c is lower'
  *
  * Return: return
