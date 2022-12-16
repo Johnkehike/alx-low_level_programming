@@ -5,5 +5,6 @@
 	
 	int _isupper(int c);
 	void printMul(void);
+	int _isdigit(int c);
 
 #endif /* MAIN_H */
