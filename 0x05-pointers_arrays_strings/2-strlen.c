@@ -1,14 +1,16 @@
-#include "main.h"
+i#include "main.h"
 #include <string.h>
-
 /**
+ * _strlen - entry
+ * @s: char
  *
- *Comment
+ * description: doen
+ *
+ * Return: 0
+ *
  *
  */
-
 int _strlen(char *s)
 {
-
-	return(strlen(s));
+	return (strlen(s));
 }
