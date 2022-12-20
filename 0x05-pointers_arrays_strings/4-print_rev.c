@@ -12,21 +12,17 @@
  */
 void print_rev(char *s)
 {
-	int l = 0;
-	int o;
+	char temp;
+	int i, lenght, lastItem, firstItem;
 
-	while (*s != '\0')
+	lenght=strlen(s);
+	firstItem=0;
+	lastItem=lenght-1;
+	for(i=firstItem; i<=lastItem; i++)
 	{
-		l++;
-		s++;
+		temp=s[i];
+		s[i]=s[lastItem];
+		s[lastItem]=temp;
+		lastItem--;
 	}
-	s--;
-
-	for (o = l; o > 0; o--)
-
-	{
-		_putchar(*s);
-		s--;
-	}
-	_putchar('\n');
-}
+}	
