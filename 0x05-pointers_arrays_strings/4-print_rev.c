@@ -1,13 +1,15 @@
 #include "main.h"
-#include <string.h>
-#include <stdio.h>
-
 /**
+ * print_rev - entry
+ * @s: done
+ *
+ * description: done that
+ *
+ * Return:
  *
  * Print in reverse
  *
  */
-
 void print_rev(char *s)
 {
 	char temp;
@@ -23,5 +25,4 @@ void print_rev(char *s)
 		s[lastItem]=temp;
 		lastItem--;
 	}
-
 }	

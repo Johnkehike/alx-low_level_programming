@@ -5,5 +5,6 @@
 
 	void print_array(int *a, int n);
         void printMul(void);
+	void print_rev(char *s);
 
 #endif /* MAIN_H */
