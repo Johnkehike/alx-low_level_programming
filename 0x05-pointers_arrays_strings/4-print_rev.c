@@ -12,17 +12,16 @@
  */
 void print_rev(char *s)
 {
-	char temp;
-	int i, lenght, lastItem, firstItem;
+	int count = 0;
 
-	lenght=strlen(s);
-	firstItem=0;
-	lastItem=lenght-1;
-	for(i=firstItem; i<=lastItem; i++)
+	while (count >= 0)
 	{
-		temp=s[i];
-		s[i]=s[lastItem];
-		s[lastItem]=temp;
-		lastItem--;
+		if (s[count] == '\0')
+			break;
+		count++;
 	}
-}	
+
+	for (count--; count >= 0; count--)
+		_putchar(s[count]);
+	_putchar('\n');
+}
