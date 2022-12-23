@@ -1,7 +1,7 @@
 #include "main.h"
 #include <string.h>
 /**
- * *_strncat - entry
+ * _strncat - entry
  * @dest: this
  * @src: that
  * @n: those
