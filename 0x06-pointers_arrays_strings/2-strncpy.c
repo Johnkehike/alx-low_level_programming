@@ -1,9 +1,14 @@
 #include "main.h"
 #include <string.h>
-
 /**
+ * _strncpy - entry
+ * @dest: 
+ * @src:
+ * @n:
+ * description:
  *
  * Strncpy command
+ * Return:
  *
  *
  */
