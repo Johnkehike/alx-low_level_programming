@@ -1,6 +1,9 @@
-#include "main.h"
-
+#include	"main.h"
 /**
+ * string_toupper -entyr
+ * @ptr:this
+ * description:
+ * return:0
  *
  *
  *
