@@ -1,7 +1,11 @@
 #include	"main.h"
 #include	<string.h>
-
 /**
+ * reverse_array - entry
+ * @a:
+ * @n:
+ * description:
+ * Return:
  *Coment-reverses array
  *
  */
