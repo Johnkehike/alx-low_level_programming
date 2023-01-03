@@ -1,7 +1,10 @@
-#include "main.h"
-#include <string.h>
-
+#include	"main.h"
+#include	<string.h>
 /**
+ * cap_string -entry
+ * @str
+ * description: that
+ * return:
  *
  *Comment - Capitalise string
  *
